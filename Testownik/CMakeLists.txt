@@ -11,6 +11,13 @@ qt_add_executable(Testownik
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
+    core/question.h core/question.cpp
+    core/textquestion.h core/textquestion.cpp
+    core/textquestion.cpp core/textquestion.h
+    core/QuestionSource.h
+    core/jsonquestionsource.h core/jsonquestionsource.cpp
+    core/quizmanager.h core/quizmanager.cpp
+    base/miernictwoForTesting.json
 )
 
 target_link_libraries(Testownik
